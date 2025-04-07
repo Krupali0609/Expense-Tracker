@@ -1,0 +1,62 @@
+/* Container */
+.expense-list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 1rem;
+    background: #f0f8ff; /* Light bluish background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .expense-list-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2a6dc1; /* Bluish shade */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* No Expenses Message */
+  .no-expense-message {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+  }
+  
+  /* Expense List */
+  .expense-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Expense Item */
+  .expense-item {
+    background: white;
+    padding: 0.75rem;
+    border-left: 5px solid #2a6dc1; /* Bluish left border */
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Expense Title */
+  .expense-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2a6dc1; /* Bluish shade */
+    margin-bottom: 5px;
+  }
+  
+  /* Expense Details */
+  .expense-detail {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  /* Labels for details */
+  .expense-label {
+    font-weight: bold;
+    color: #2a6dc1;
+  }

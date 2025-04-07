@@ -1,0 +1,85 @@
+.member-summary-container {
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 24px auto;
+}
+
+.member-summary-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e5baa;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #76a1eb;
+  margin-bottom: 8px;
+}
+
+.owes-money-section,
+.gets-back-money-section,
+.summary-list-section {
+  margin-bottom: 24px;
+}
+
+.owes-list,
+.gets-back-list,
+.summary-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.owes-item {
+  background-color: #FEE2E2;
+  color: #B91C1C;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gets-back-item {
+  background-color: #D1FAE5; /* Green background */
+  color: #16A34A; /* Green text */
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-item {
+  background-color: #F7FAFC;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.summary-name {
+  font-weight: bold;
+  color: #2D3748;
+}
+
+.no-owes,
+.no-gets-back {
+  color: #4A5568;
+  text-align: center;
+  font-style: italic;
+}
+
+.owes-item,
+.gets-back-item {
+  font-size: 16px;
+}
+
+.summary-name,
+.summary-item p {
+  font-size: 14px;
+  color: #2D3748;
+}

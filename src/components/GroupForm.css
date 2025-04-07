@@ -1,0 +1,104 @@
+/* Container for the entire form */
+.group-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Form Styling */
+  .group-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Form Heading */
+  .form-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Field */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #218838;
+  }
+  
+  .submit-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Member List Container */
+  .member-list-container {
+    margin-top: 15px;
+  }
+  
+  /* Members Heading */
+  .members-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0056b3;
+  }
+  
+  /* Member List */
+  .member-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Member Item */
+  .member-item {
+    display: flex;
+    align-items: center;
+    background: #e0f2ff;
+    color: #0056b3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Member Icon */
+  .member-icon {
+    margin-right: 10px;
+    color: #007bff;
+  }
