@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './GroupForm.css'; // Import the CSS file
-import { FaUser } from "react-icons/fa";
+
 
 interface GroupFormProps {
   onAddMember: (name: string) => void;
