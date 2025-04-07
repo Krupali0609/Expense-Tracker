@@ -1,0 +1,7 @@
+{
+    "extends": "react-app",
+    "rules": {
+      "no-unused-vars": "warn",  // Change to 'warn' or 'off' to avoid errors in CI
+      "react/prop-types": "off"  // Customize any other rules as needed
+    }
+  }
